@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  .contenedor {
+    max-width: 600px;
+    margin: 90px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .opciones-denuncia {
+    margin-bottom: 20px;
+  }
+  
+  .opciones-denuncia label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .enviar-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enviar-btn:hover {
+    background-color: #2980b9;
+  }
+  
